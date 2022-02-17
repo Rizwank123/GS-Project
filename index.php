@@ -30,7 +30,14 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#"> <i class="bi bi-briefcase"></i> Become a
-                            Member</a>
+                            Partener</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"> <i class="bi bi-bag"></i> Become a
+                            Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"> <i class="bi bi-cart2"></i> Checkout </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#"> <i class="bi bi-person-circle"></i> SignIn /
@@ -40,12 +47,14 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid bg-light pt-3 pb-1 text-center">
-        <p>Repair Your AC at anywhere, anytime at best cost. </p>
-    </div>
-    <!-- == //Navbar == -->
 
-  
+    <!-- == //Navbar == -->
+    <!-- Search Bar -->
+        <div class="container">
+            
+        </div>
+    <!-- //Search Bar -->
+
 
 
 
@@ -57,10 +66,12 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script>
-        $(window).on('load', function(){
-            $('#preloader').delay(2000).fadeOut('slow');
-            $('body').delay(1000).css({'overflow':'visible'});
+    $(window).on('load', function() {
+        $('#preloader').delay(1000).fadeOut('slow');
+        $('body').delay(500).css({
+            'overflow': 'visible'
         });
+    });
     </script>
 </body>
 
