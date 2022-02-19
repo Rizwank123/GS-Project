@@ -1,3 +1,4 @@
+/* Preloader */
 #preloader {
     position: fixed;
     z-index: 9999;
@@ -49,3 +50,16 @@
         opacity: 0;
     }
 }
+
+/* //preloder */
+/* media Query */
+@media screen and (max-width: 480px) {
+    .subs {
+      background-color:;
+      font-size: 1rem;
+    }
+  }
+  /* //Media Query */
+
+
+
